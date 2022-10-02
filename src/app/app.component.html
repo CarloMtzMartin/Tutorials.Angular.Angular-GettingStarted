@@ -10,4 +10,8 @@
   <router-outlet></router-outlet>
   <p>Your BMI is:</p>
   <p>{{ calculateBmi() }}</p>
+  <hr />
+  <p>CM to Ft</p>
+  <input [(ngModel)]="inputCm" type="number">
+  <p>FT: {{convertCmToFt()}}</p>
 </div>
