@@ -1,0 +1,14 @@
+<p>Your BMI is:</p>
+  
+  <input [(ngModel)] ="weight" type = "number" placeholder="Weight">
+  <input [(ngModel)] ="height" type = "number" placeholder="Height">
+  <p>{{ calculateBmi() }}</p>
+  <hr />
+  <p>CM to Ft</p>
+  <input [(ngModel)]="inputCm" type="number">
+  <p>FT: {{convertCmToFt()}}</p>
+
+  <hr/>
+  <p>C to F</p>
+  <input [(ngModel)]="inputC" type="number">
+  <p>F: {{convertCelsiusToFahrenheit()}}</p>
