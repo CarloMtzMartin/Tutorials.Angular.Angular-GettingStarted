@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  pageTitle: string = "Acme Product Management";
+  pageTitle: string = "Qarlos Inc";
 
   inputCm: number = 0;
   outputFt: number = 0;

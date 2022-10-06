@@ -4,6 +4,7 @@
 
 div.card-header {
  font-size: large;
+ background-color: #f699cd;
 }
 
 div.card {
@@ -12,4 +13,32 @@ div.card {
 
 .table {
   margin-top: 10px
+}
+nav{
+  
+ background-color: #f699cd!important;
+}
+
+body{
+  background-color: #f699cd50;
+}
+a{
+  color: #e3198a;
+}
+a:hover{
+  color:#e193bf;
+}
+.btn-primary{
+  background-color: #e3198a;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #e193bf;
+  border: none;
+}
+th{
+  color: #000;
+}
+.fa-star{
+  color: #edad1d;
 }
